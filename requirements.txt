@@ -24,3 +24,5 @@ httplib2==0.22.0
 oauthlib==3.2.2
 pytz==2023.3.post1
 Frozen-Flask==1.0.1
+Flask-Cors==4.0.0
+gunicorn==21.2.0
