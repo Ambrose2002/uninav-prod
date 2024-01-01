@@ -1,0 +1,123 @@
+.results__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.lecture__card {
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  background-color: var(--container-color);
+  text-align: center;
+  height: 20rem;
+  margin-top: 3rem;
+  border-radius: 1.5rem;
+  row-gap: 2rem;
+  
+}
+
+.lecture__container{
+    display: flex;
+    justify-content: center;
+}
+
+.message__container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.message{
+    font-size: 2rem;
+}
+
+.swipe__instructions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrow{
+    width: 1rem;
+}
+
+.arrow-right {
+    animation: right 2s ease infinite;
+}
+
+@keyframes right{
+    0%{
+        transform: translateX(0)
+    }
+    30%{
+        transform: translateX(.8rem)
+    }
+}
+
+.arrow-left {
+    animation: left 2s ease infinite;
+}
+
+@keyframes left{
+    0%{
+        transform: translateX(0)
+    }
+    30%{
+        transform: translateX(-.8rem)
+    }
+}
+
+.all{
+    margin-top: 20%;
+    text-align: center;
+    font-size: var(--h2-font-size);
+}
+
+.location {
+  margin-top: 2rem;
+  font-size: var(--h2-font-size);
+}
+
+.status {
+  font-size: var(--h2-font-size);
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--title-color) !important;
+}
+
+/* =============== BREAKPOINTS =============== */
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .lecture__card{
+        width: 20rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .lecture__card {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}
+
+

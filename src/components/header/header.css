@@ -1,0 +1,45 @@
+.header {
+  margin-top: 2rem;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__icon {
+  font-size: 20px;
+}
+
+a {
+  color: var(--title-color);
+}
+
+a:hover {
+  color: var(--title-color-dark);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .header{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}
