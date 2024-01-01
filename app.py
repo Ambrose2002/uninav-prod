@@ -1,11 +1,14 @@
 import requests
+from flask.helpers import send_from_directory
 from bs4 import BeautifulSoup
 import json
 from db import db, Lectures
 from flask import Flask, request, render_template
 from date_time import get_current_time, get_today, get_dif, convert, time_to_seconds, get_time_str
+from flask_cors import CORS, cross_origin
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='build', static_url_path='')
+CORS(app)
 
 db_filename = "lectures.db"
 
@@ -89,13 +92,20 @@ def get_courses_data(course):
     
     return lectures_lst
    
+# @app.route("/")
+# @cross_origin()
+# def home_page():
+#     """Endpoint to the Home page"""
+#     return "<h1>Welcome to Uninav</dh1>"
+
 @app.route("/")
-def home_page():
-    """Endpoint to the Home page"""
-    return "<h1>Welcome to Uninav</dh1>"
+@cross_origin()
+def serve():
+    return send_from_directory(app.static_folder, 'index.html')
 
 
 @app.route("/api/create/", methods = ["GET"]) 
+@cross_origin()
 def create_table():
     """endpoint for creating lectures table and 
     inserting into lectures table
@@ -116,6 +126,7 @@ def create_table():
 
 
 @app.route("/api/search/<string:building>/")
+@cross_origin()
 def get_busy_rooms(building):
     """endpoint for getting busy rooms in a lecture building"""
     building = building.capitalize()
@@ -145,7 +156,8 @@ def get_busy_rooms(building):
         return success_response(f"No lectures happening at {building} now. Feel free to study in any class!")
     return (lectures)
     
-        
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
