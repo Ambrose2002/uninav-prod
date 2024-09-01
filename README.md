@@ -1,70 +1,101 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# UniNav
 
-## Available Scripts
+UniNav is a full-stack web application designed to provide real-time occupancy information for lecture rooms at Cornell University. The application helps students quickly check room availability, allowing for more efficient use of campus spaces.
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Real-time Occupancy Updates: Displays current occupancy levels of lecture rooms.
+- Room Details: Provides information such as room capacity, location, and schedule.
+- User-Friendly Interface: Intuitive design for easy navigation and quick access to information.
+- Search and Filter: Search for specific rooms or filter by location, capacity, or occupancy level.
+- Responsive Design: Optimized for both desktop and mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- Frontend: HTML, CSS, JavaScript, React
+- Backend: Python, Flask
+- WebScrapping: BeautifulSoup
+- Database: SQLAlchemy
+- Deployment: Heroku
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisite Technologies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Python 3.x
+- Flask
+- SQLAlchemy
+- Node.js and npm (for React)
+- Virtual environment manager (eg., venv)
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone Repository:
+```bash
+git clone https://github.com/Ambrose2002/uninav-prod.git
+cd uninav-prod
+```
 
-### `npm run eject`
+2. Create and activate a virtual environment for the backend:
+```bash
+python -m venv venv
+source venv/bin/activate
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install backend dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Install frontend dependencies:
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6. Run the backend server:
+```bash
+python app.py
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+7. Run the frontend development server:
+```bash
+npm start
+```
 
-## Learn More
+8. Open the app in your browser:
+```bash
+http://localhost:300
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    
+## Screenshots
+![Screenshot 2024-09-01 at 1 45 52 PM (2)](https://github.com/user-attachments/assets/fdb199b4-fe55-4b74-aa19-8f9b63a8a040)
 
-### Code Splitting
+![Screenshot 2024-09-01 at 1 47 27 PM (2)](https://github.com/user-attachments/assets/89fa3eb4-1a53-4b84-a733-0a8dc2fed5d6)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions are always welcome! To contribute:
 
-### Making a Progressive Web App
+	1.	Fork the repository.
+	2.	Create a new branch (git checkout -b feature/your-feature).
+	3.	Make your changes and commit them (git commit -m 'Add new feature').
+	4.	Push to the branch (git push origin feature/your-feature).
+	5.	Open a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Please adhere to this project's `code of conduct`.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is licensed under the MIT [MIT](https://choosealicense.com/licenses/mit/) License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For questions or feedback, please contact [Ambrose Blay](mailto:ambrose2002blay@gmail.com.com).
+Feel free to update any details to match your project specifics!
