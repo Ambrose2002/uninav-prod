@@ -69,7 +69,7 @@ npm start
 
 8. Open the app in your browser:
 ```bash
-http://localhost:300
+http://localhost:3000
 ```
 
 
