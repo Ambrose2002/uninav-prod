@@ -1,4 +1,6 @@
 
+![Screenshot 2024-09-01 at 1 45 52 PM (2)](https://github.com/user-attachments/assets/a42201b3-1657-4a3c-9226-4491d9bdca49)
+
 # UniNav
 
 UniNav is a full-stack web application designed to provide real-time occupancy information for lecture rooms at Cornell University. The application helps students quickly check room availability, allowing for more efficient use of campus spaces.
@@ -72,8 +74,6 @@ http://localhost:300
 
     
 ## Screenshots
-![Screenshot 2024-09-01 at 1 45 52 PM (2)](https://github.com/user-attachments/assets/fdb199b4-fe55-4b74-aa19-8f9b63a8a040)
-
 ![Screenshot 2024-09-01 at 1 47 27 PM (2)](https://github.com/user-attachments/assets/89fa3eb4-1a53-4b84-a733-0a8dc2fed5d6)
 
 
