@@ -9,10 +9,10 @@ UniNav is a full-stack web application designed to provide real-time occupancy i
 
 ## Features
 
-- Real-time Occupancy Updates: Displays current occupancy levels of lecture rooms.
-- Room Details: Provides information such as room capacity, location, and schedule.
+- Real-time Occupancy Updates: Displays current occupancy of lecture rooms.
+- Room Details: Provides information such as location and schedule.
 - User-Friendly Interface: Intuitive design for easy navigation and quick access to information.
-- Search and Filter: Search for specific rooms or filter by location, capacity, or occupancy level.
+- Search and Filter: Search for specific rooms.
 - Responsive Design: Optimized for both desktop and mobile devices.
 
 
