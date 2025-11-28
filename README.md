@@ -77,25 +77,6 @@ http://localhost:3000
 ## Screenshots
 ![Screenshot 2024-09-01 at 1 47 27 PM (2)](https://github.com/user-attachments/assets/89fa3eb4-1a53-4b84-a733-0a8dc2fed5d6)
 
-
-## Contributing
-
-Contributions are always welcome! To contribute:
-
-	1.	Fork the repository.
-	2.	Create a new branch (git checkout -b feature/your-feature).
-	3.	Make your changes and commit them (git commit -m 'Add new feature').
-	4.	Push to the branch (git push origin feature/your-feature).
-	5.	Open a pull request.
-
-Please adhere to this project's `code of conduct`.
-
-
-## License
-
-This project is licensed under the MIT [MIT](https://choosealicense.com/licenses/mit/) License
-
-
 ## Contact
 
 For questions or feedback, please contact [Ambrose Blay](mailto:ambrose2002blay@gmail.com.com).
